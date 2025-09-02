@@ -2,13 +2,15 @@ import { View, Text, StyleSheet, Pressable, TextInput } from 'react-native';
 import { useLocalSearchParams, Link } from 'expo-router';
 import React, { useState, useEffect } from 'react';
 import "../../global.css";
+import { useAuth } from '../context/authContext';
 
 export default function Cusine() {
   const { foodType } = useLocalSearchParams();
-  
+  const {userLoggedIn} = useAuth()
   const [text, onChangeText] = useState('');
   const [food, setFood] = useState(null);
   const foodQuery = foodType.replaceAll(" ", "").toLowerCase();
+
   
   useEffect(() => {
     const getFoodData = async () => {
@@ -46,6 +48,9 @@ export default function Cusine() {
 
       <Text style={styles.title}>You selected {foodType}!</Text>
       <Text style={styles.title}>You selected {foodQuery}!</Text>
+      <Pressable className="absolute top-10 left-5 p-2 rounded-full bg-gray-200">
+          <Text className="text-xl font-bold" onPress={()=>console.log(userLoggedIn)}>PRESS TO CHECK AUTH</Text>
+        </Pressable>
     </View>
   );
 }
