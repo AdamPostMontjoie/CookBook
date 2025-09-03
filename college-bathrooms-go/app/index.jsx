@@ -1,17 +1,26 @@
 import { StyleSheet, Text, View, Pressable, ScrollView } from 'react-native'
-import { useState } from 'react'
-import { Link } from 'expo-router'
+import { useEffect, useState } from 'react'
+import { Link,Redirect,router } from 'expo-router'
 import React from 'react'
 import "../global.css"
+import { useAuth } from '../services/context/authContext'
+import Login from './account/Login'
 
 const Home = () => {
-
+  const {userLoggedIn, loading} = useAuth();
+  useEffect(()=>{
+    if (!userLoggedIn && !loading) {
+      router.replace('/account/Login')
+    }
+  },[userLoggedIn,loading])
+   
   return (
     <ScrollView contentContainerStyle={{ flexGrow: 1, justifyContent: 'center' }} className="bg-white">
       <View className="w-full px-4"> 
         <Text className="text-xl font-bold text-blue-500 mb-4 text-center">
           International CookBook
         </Text>
+        <View>
          <Link href="/Cusine/Japanese Food" asChild>
           <Pressable 
             className="bg-japan-red py-4 rounded-lg w-full items-center mb-3"
@@ -87,6 +96,10 @@ const Home = () => {
         <Link href="/about" className="text-blue-500 text-lg text-center mt-4">
           <Text>About page</Text>
         </Link>
+        <Link href="/account/Login" className="text-blue-500 text-lg text-center mt-4">
+          <Text>About page</Text>
+        </Link>
+        </View>
       </View>
     </ScrollView>
     

@@ -2,7 +2,7 @@ import { View, Text, StyleSheet, Pressable, TextInput } from 'react-native';
 import { useLocalSearchParams, Link } from 'expo-router';
 import React, { useState, useEffect } from 'react';
 import "../../global.css";
-import { useAuth } from '../context/authContext';
+import { useAuth } from '../../services/context/authContext';
 
 export default function Cusine() {
   const { foodType } = useLocalSearchParams();

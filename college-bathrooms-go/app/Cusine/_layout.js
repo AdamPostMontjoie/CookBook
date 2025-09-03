@@ -15,7 +15,7 @@ export default function CuisineLayout() {
     map.set("frenchfood", "#002654");
     map.set("vietnamesefood", "#FFCC00");
     map.set("turkishfood", "#E30A17");
-      const headerColor = map.get(foodQuery) || '#3b82f6';
+    const headerColor = map.get(foodQuery) || '#3b82f6';
 
   return (
     <Stack screenOptions={{
