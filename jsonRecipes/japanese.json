@@ -1,0 +1,253 @@
+[
+  {
+    "name": "Udon",
+    "image": "https://example.com/images/udon.jpg",
+    "description": "A classic Japanese noodle soup dish featuring thick, chewy wheat noodles in a savory broth.",
+    "prepTime": "10 min",
+    "cookTime": "15 min",
+    "servings": 2,
+    "ingredients": [
+      "2 packs of fresh or frozen udon noodles",
+      "4 cups of dashi broth",
+      "3 tbsp soy sauce",
+      "2 tbsp mirin",
+      "1 tsp sugar (optional)",
+      "2 green onions, thinly sliced",
+      "Shichimi togarashi (Japanese seven spice), for garnish"
+    ],
+    "instructions": [
+      "In a medium pot, combine the dashi broth, soy sauce, and mirin. Bring to a gentle simmer over medium heat.",
+      "In a separate large pot, bring water to a boil. Cook the udon noodles according to the package directions, typically for 2-4 minutes. Drain well.",
+      "Divide the cooked noodles between two serving bowls.",
+      "Pour the hot broth over the noodles.",
+      "Garnish with freshly sliced green onions and a sprinkle of shichimi togarashi. Serve immediately."
+    ]
+  },
+  {
+    "name": "Miso Soup",
+    "image": "https://example.com/images/miso-soup.jpg",
+    "description": "A traditional Japanese soup made with dashi stock and softened miso paste, often containing tofu and seaweed.",
+    "prepTime": "5 min",
+    "cookTime": "10 min",
+    "servings": 4,
+    "ingredients": [
+      "4 cups of dashi broth",
+      "3-4 tbsp miso paste (white or red)",
+      "1 block (7 oz) of silken or firm tofu, cut into 1/2-inch cubes",
+      "1 tbsp dried wakame seaweed",
+      "2 green onions, thinly sliced"
+    ],
+    "instructions": [
+      "In a saucepan, bring the dashi broth to a simmer over medium heat. Add the dried wakame and let it rehydrate for a few minutes.",
+      "Place the miso paste in a small bowl. Ladle about 1/2 cup of the warm dashi into the bowl and whisk until the miso is completely dissolved.",
+      "Pour the dissolved miso mixture back into the saucepan. Add the cubed tofu.",
+      "Heat the soup gently for another 1-2 minutes. Do not allow it to boil after the miso has been added, as this can alter the flavor.",
+      "Ladle into bowls and garnish with sliced green onions before serving."
+    ]
+  },
+  {
+    "name": "Sushi Rolls (Maki)",
+    "image": "https://example.com/images/sushi-rolls.jpg",
+    "description": "Hand-rolled sushi with rice and various fillings wrapped in a sheet of nori seaweed.",
+    "prepTime": "45 min",
+    "cookTime": "20 min",
+    "servings": 4,
+    "ingredients": [
+      "2 cups sushi rice",
+      "2 cups water",
+      "1/4 cup rice vinegar",
+      "2 tbsp sugar",
+      "1 tsp salt",
+      "4 sheets nori seaweed",
+      "Fillings: 1/2 cucumber julienned, 1/2 avocado sliced, crab sticks or raw tuna"
+    ],
+    "instructions": [
+      "Rinse the sushi rice until the water runs clear. Cook the rice with 2 cups of water. While the rice is cooking, dissolve sugar and salt in rice vinegar.",
+      "Once the rice is cooked, transfer it to a large bowl and gently fold in the vinegar mixture while it's still hot. Allow the rice to cool to room temperature.",
+      "Place a sheet of nori, shiny side down, on a bamboo sushi mat. Wet your hands and spread about a cup of rice evenly over the nori, leaving a 1-inch border at the top.",
+      "Arrange your desired fillings in a horizontal line about an inch from the bottom edge of the rice.",
+      "Using the bamboo mat, lift the edge closest to you and begin to roll the sushi tightly. Press firmly as you roll. Moisten the top border of nori with a little water to seal the roll.",
+      "Use a sharp, wet knife to slice the roll into 8 pieces. Serve with soy sauce, wasabi, and pickled ginger."
+    ]
+  },
+  {
+    "name": "Chicken Katsu",
+    "image": "https://example.com/images/chicken-katsu.jpg",
+    "description": "A crispy Japanese fried chicken cutlet, served with a tangy tonkatsu sauce.",
+    "prepTime": "15 min",
+    "cookTime": "15 min",
+    "servings": 2,
+    "ingredients": [
+      "2 boneless, skinless chicken breasts",
+      "1/2 cup all-purpose flour",
+      "1 large egg, beaten",
+      "1 cup panko breadcrumbs",
+      "Salt and black pepper",
+      "Vegetable oil for frying",
+      "Tonkatsu sauce for serving"
+    ],
+    "instructions": [
+      "Pound the chicken breasts to an even 1/2-inch thickness. Season both sides generously with salt and pepper.",
+      "Set up a dredging station with three shallow dishes: one for flour, one for the beaten egg, and one for the panko.",
+      "Coat each chicken breast first in flour, shaking off the excess. Then, dip it into the egg, and finally, press it firmly into the panko, ensuring it is fully coated.",
+      "In a large skillet, heat about an inch of vegetable oil to 350°F (175°C).",
+      "Carefully place the chicken in the hot oil and fry for 4-5 minutes per side, until golden brown and cooked through.",
+      "Remove from the skillet and let it drain on a wire rack. Slice and serve immediately with tonkatsu sauce."
+    ]
+  },
+  {
+    "name": "Onigiri (Japanese Rice Balls)",
+    "image": "https://example.com/images/onigiri.jpg",
+    "description": "Savory Japanese rice balls, often formed into a triangle or oval shape and wrapped in nori.",
+    "prepTime": "20 min",
+    "cookTime": "15 min",
+    "servings": 4,
+    "ingredients": [
+      "2 cups short-grain Japanese rice",
+      "2.5 cups water",
+      "1/2 tsp salt",
+      "Filling options: Umeboshi (pickled plum), canned tuna mixed with mayonnaise, or salted salmon",
+      "Nori seaweed sheets, cut into strips"
+    ],
+    "instructions": [
+      "Rinse and cook the rice according to package directions. Once cooked, let it steam in the pot with the lid on for 10 minutes.",
+      "Transfer the hot rice to a large bowl. Sprinkle with salt and mix gently with a rice paddle.",
+      "To shape, wet your hands with water and sprinkle a little salt on them to prevent sticking.",
+      "Take about 1/2 cup of warm rice into your hands and make an indentation in the center. Place a small amount of your chosen filling inside.",
+      "Gently form the rice around the filling, shaping it into a triangle by pressing with your palms.",
+      "Wrap a strip of nori around the bottom of the onigiri. Serve at room temperature."
+    ]
+  },
+  {
+    "name": "Gyudon (Beef Bowl)",
+    "image": "https://example.com/images/gyudon.jpg",
+    "description": "A comforting Japanese rice bowl dish topped with thinly sliced beef and onions simmered in a sweet and savory sauce.",
+    "prepTime": "10 min",
+    "cookTime": "15 min",
+    "servings": 2,
+    "ingredients": [
+      "1/2 lb thinly sliced beef (like sukiyaki or shabu-shabu cut)",
+      "1/2 onion, thinly sliced",
+      "1 cup dashi broth",
+      "1/4 cup soy sauce",
+      "3 tbsp mirin",
+      "1 tbsp sugar",
+      "2 cups cooked Japanese rice",
+      "Optional garnish: Pickled red ginger (beni shoga), green onions, or a raw egg yolk"
+    ],
+    "instructions": [
+      "In a skillet or saucepan, combine dashi, soy sauce, mirin, and sugar. Bring to a simmer over medium heat.",
+      "Add the sliced onions and cook for about 5 minutes, until they have softened.",
+      "Add the sliced beef to the skillet, spreading it out. Simmer for another 5-7 minutes, stirring occasionally, until the beef is cooked through.",
+      "Divide the hot cooked rice into two large bowls.",
+      "Spoon the beef and onion mixture, along with plenty of the sauce, over the rice.",
+      "Garnish as desired and serve immediately."
+    ]
+  },
+  {
+    "name": "Agedashi Tofu",
+    "image": "https://example.com/images/agedashi-tofu.jpg",
+    "description": "Lightly deep-fried tofu served in a hot, savory dashi-based broth, garnished with green onions and grated daikon.",
+    "prepTime": "15 min",
+    "cookTime": "10 min",
+    "servings": 2,
+    "ingredients": [
+      "1 block (14 oz) firm tofu",
+      "1/4 cup potato starch or cornstarch",
+      "Vegetable oil for frying",
+      "1 cup dashi broth",
+      "2 tbsp soy sauce",
+      "2 tbsp mirin",
+      "Garnish: grated daikon radish, sliced green onions, katsuobushi (bonito flakes)"
+    ],
+    "instructions": [
+      "Gently press the tofu block between paper towels for 15 minutes to remove excess water. Cut into 6 cubes.",
+      "In a small saucepan, combine dashi, soy sauce, and mirin to make the sauce. Heat gently until warm.",
+      "Lightly coat each tofu cube in potato starch, shaking off any excess.",
+      "In a skillet, heat about an inch of oil to 340°F (170°C). Carefully fry the tofu cubes until all sides are light golden brown and crispy.",
+      "Remove the tofu with a slotted spoon and drain on a wire rack.",
+      "Place three pieces of fried tofu in each serving bowl. Pour the warm sauce over them and top with your choice of garnishes."
+    ]
+  },
+  {
+    "name": "Gyoza",
+    "image": "https://example.com/images/gyoza.jpg",
+    "description": "Japanese pan-fried dumplings with a crispy bottom, steamed top, and a juicy pork and cabbage filling.",
+    "prepTime": "30 min",
+    "cookTime": "10 min",
+    "servings": 4,
+    "ingredients": [
+      "1/2 lb ground pork",
+      "2 cups finely chopped cabbage",
+      "2 green onions, minced",
+      "1 clove garlic, minced",
+      "1 tsp grated ginger",
+      "1 tbsp soy sauce",
+      "1 tsp sesame oil",
+      "30 gyoza wrappers",
+      "1 tbsp vegetable oil",
+      "1/4 cup water",
+      "Dipping sauce: soy sauce, rice vinegar, and a drop of chili oil"
+    ],
+    "instructions": [
+      "In a large bowl, mix the ground pork, cabbage, green onions, garlic, ginger, soy sauce, and sesame oil until well combined.",
+      "Place about a teaspoon of filling in the center of a gyoza wrapper. Moisten the edge of the wrapper with water using your finger.",
+      "Fold the wrapper in half over the filling and pleat the edges to seal tightly.",
+      "Heat vegetable oil in a large non-stick skillet over medium-high heat. Arrange the gyoza in a single layer, flat side down.",
+      "Cook for 2-3 minutes until the bottoms are golden brown and crispy.",
+      "Pour the water into the skillet, cover immediately, and reduce heat. Steam for 3-4 minutes, until the filling is cooked and the water has evaporated.",
+      "Remove the lid and cook for another minute to re-crisp the bottom. Serve hot with dipping sauce."
+    ]
+  },
+  {
+    "name": "Okonomiyaki",
+    "image": "https://example.com/images/okonomiyaki.jpg",
+    "description": "A savory Japanese pancake containing a variety of ingredients, topped with special sauces and garnishes.",
+    "prepTime": "20 min",
+    "cookTime": "15 min",
+    "servings": 2,
+    "ingredients": [
+      "1 cup all-purpose flour",
+      "3/4 cup dashi stock",
+      "1 large egg",
+      "1/4 head of cabbage, finely shredded",
+      "2 green onions, sliced",
+      "4 oz thin-sliced pork belly (or shrimp)",
+      "Vegetable oil for cooking",
+      "Toppings: Okonomiyaki sauce, Japanese mayonnaise, aonori (dried seaweed flakes), katsuobushi (bonito flakes)"
+    ],
+    "instructions": [
+      "In a large bowl, whisk together the flour, dashi stock, and egg to form a batter. Stir in the shredded cabbage and green onions.",
+      "Lightly oil a griddle or large frying pan over medium heat.",
+      "Pour half of the batter onto the griddle, forming a round pancake. Lay half of the pork belly slices on top.",
+      "Cook for about 5-7 minutes until the bottom is golden brown. Carefully flip the pancake.",
+      "Cover and cook the other side for another 5-7 minutes, until the pork is cooked through.",
+      "Transfer to a plate. Brush generously with okonomiyaki sauce, drizzle with Japanese mayonnaise, and sprinkle with aonori and katsuobushi. Repeat for the second pancake."
+    ]
+  },
+  {
+    "name": "Shoyu Ramen",
+    "image": "https://example.com/images/shoyu-ramen.jpg",
+    "description": "A classic soy sauce-based ramen, with chewy noodles and various toppings in a savory broth.",
+    "prepTime": "10 min",
+    "cookTime": "25 min",
+    "servings": 2,
+    "ingredients": [
+      "4 cups chicken broth",
+      "1/4 cup soy sauce",
+      "1 tbsp mirin",
+      "1 clove garlic, smashed",
+      "1-inch piece of ginger, sliced",
+      "2 servings fresh or dried ramen noodles",
+      "Toppings: Sliced chashu pork, soft-boiled eggs, menma (bamboo shoots), sliced green onions, nori"
+    ],
+    "instructions": [
+      "In a saucepan, combine the chicken broth, soy sauce, mirin, garlic, and ginger. Bring to a simmer and cook for 20 minutes to infuse the flavors. Strain to remove garlic and ginger.",
+      "While the broth is simmering, prepare your toppings and cook the soft-boiled eggs if you haven't already.",
+      "In a separate large pot, bring water to a rolling boil. Cook the ramen noodles according to package directions until al dente. Drain well.",
+      "Divide the drained noodles between two large serving bowls.",
+      "Reheat the broth if necessary, then carefully ladle it over the noodles.",
+      "Arrange your toppings (chashu pork, egg, menma, green onions, nori) on top of the noodles and serve immediately."
+    ]
+  }
+]

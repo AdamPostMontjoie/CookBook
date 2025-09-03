@@ -1,0 +1,7 @@
+to upload json file, run this. Make sure to change file and collection name
+
+template
+curl -X POST -H "Content-Type: application/json" -d @<fileName>.json http://localhost:3000/recipes/<collectionName>
+
+example
+curl -X POST -H "Content-Type: application/json" -d @japanese.json http://localhost:3000/recipes/japanesefood
