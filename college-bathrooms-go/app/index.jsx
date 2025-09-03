@@ -1,10 +1,10 @@
 import { StyleSheet, Text, View, Pressable, ScrollView } from 'react-native'
 import { useEffect, useState } from 'react'
-import { Link,Redirect,router } from 'expo-router'
+import { Link,router } from 'expo-router'
 import React from 'react'
 import "../global.css"
+import Entypo from '@expo/vector-icons/Entypo';
 import { useAuth } from '../services/context/authContext'
-import Login from './account/Login'
 
 const Home = () => {
   const {userLoggedIn, loading} = useAuth();
@@ -21,6 +21,17 @@ const Home = () => {
           International CookBook
         </Text>
         <View>
+          <Link href="/Cusine/My Favorites" asChild>
+            <Pressable 
+              className="bg-teal-500 py-4 rounded-lg w-full items-center mb-3"
+            >
+              <View className="flex-row items-center">
+                <Text className="text-white text-lg font-semibold mr-2">
+                  My Favorites
+                </Text>
+              </View>
+            </Pressable>
+          </Link>
          <Link href="/Cusine/Japanese Food" asChild>
           <Pressable 
             className="bg-japan-red py-4 rounded-lg w-full items-center mb-3"
@@ -94,9 +105,6 @@ const Home = () => {
           </Pressable>
         </Link>
         <Link href="/about" className="text-blue-500 text-lg text-center mt-4">
-          <Text>About page</Text>
-        </Link>
-        <Link href="/account/Login" className="text-blue-500 text-lg text-center mt-4">
           <Text>About page</Text>
         </Link>
         </View>

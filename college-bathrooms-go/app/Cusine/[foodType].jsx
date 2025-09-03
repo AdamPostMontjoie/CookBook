@@ -1,37 +1,33 @@
 import { View, Text, StyleSheet, Pressable, TextInput } from 'react-native';
 import { useLocalSearchParams, Link } from 'expo-router';
 import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import "../../global.css";
 import { useAuth } from '../../services/context/authContext';
 
 export default function Cusine() {
   const { foodType } = useLocalSearchParams();
   const {userLoggedIn} = useAuth()
-  const [text, onChangeText] = useState('');
+  const [filter,setFilter] = useState('');
   const [food, setFood] = useState(null);
   const foodQuery = foodType.replaceAll(" ", "").toLowerCase();
-
-  
-  useEffect(() => {
-    const getFoodData = async () => {
-      try {
-        const arrForNow = ["Udon","Miso Soup"];
-        const response = arrForNow;
-        setFood(response);
-      } catch (error) {
-        console.error(error.message);
+  const backendUrl = process.env.EXPO_PUBLIC_BACKEND_URL;
+  useEffect(()=>{
+    async function getRecipes(){
+      try{
+        const result = await axios.get(`${backendUrl}/recipes/${foodQuery}`)
+        setFood(result.data)
+        console.log(result.data)
+      } catch(err){
+        console.error(err)
       }
-    };
-    getFoodData();
-  }, []);
+      
+    }
+  },[foodQuery])
+
 
   return (
     <View style={styles.container}>
-      <Link href="../" asChild>
-        <Pressable className="absolute top-10 left-5 p-2 rounded-full bg-gray-200">
-          <Text className="text-xl font-bold">&larr;</Text>
-        </Pressable>
-      </Link>
       <View className="flex-row items-center border border-gray-400 rounded-lg w-4/5 mt-20">
         
         {/* The search icon is now a permanent, separate component */}
@@ -41,16 +37,13 @@ export default function Cusine() {
         <TextInput
           className="flex-1 p-3 text-black"
           placeholder="Search for a recipe..."
-          onChangeText={onChangeText}
-          value={text}
+          onChangeText={setFilter}
+          value={filter}
         />
       </View>
 
       <Text style={styles.title}>You selected {foodType}!</Text>
       <Text style={styles.title}>You selected {foodQuery}!</Text>
-      <Pressable className="absolute top-10 left-5 p-2 rounded-full bg-gray-200">
-          <Text className="text-xl font-bold" onPress={()=>console.log(userLoggedIn)}>PRESS TO CHECK AUTH</Text>
-        </Pressable>
     </View>
   );
 }
