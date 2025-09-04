@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Spaghetti Carbonara",
+    "image": "https://example.com/images/spaghetti-carbonara.jpg",
+    "description": "A classic Roman pasta dish made with a creamy sauce from eggs, hard cheese, cured pork, and black pepper. It contains no cream.",
+    "prepTime": "10 min",
+    "cookTime": "20 min",
+    "servings": 4,
+    "ingredients": [
+      "12 oz spaghetti",
+      "4 oz guanciale or pancetta, diced",
+      "2 large eggs",
+      "2 large egg yolks",
+      "1 cup grated Pecorino Romano cheese",
+      "1/2 tsp black pepper, freshly ground",
+      "Salt for pasta water"
+    ],
+    "instructions": [
+      "Bring a large pot of salted water to a boil. Add the spaghetti and cook according to package directions until al dente.",
+      "While the pasta cooks, heat a skillet over medium heat. Add the guanciale or pancetta and cook until the fat has rendered and the pork is crispy. Remove the crispy pork bits with a slotted spoon and set them aside, leaving the rendered fat in the skillet.",
+      "In a medium bowl, whisk together the eggs, egg yolks, grated Pecorino Romano cheese, and black pepper until smooth and well combined.",
+      "Before draining the pasta, reserve about 1 cup of the starchy pasta water. Drain the pasta and immediately add it to the skillet with the rendered pork fat. Toss to coat the pasta.",
+      "Remove the skillet from the heat. Quickly pour the egg and cheese mixture over the hot pasta, tossing continuously. The residual heat will cook the eggs and create a creamy sauce. Add a tablespoon or two of the reserved pasta water to achieve the desired consistency. The sauce should be creamy, not scrambled.",
+      "Stir in the reserved crispy guanciale or pancetta. Serve immediately with extra black pepper and Pecorino Romano."
+    ]
+  },
+  {
+    "name": "Gnocchi",
+    "image": "https://example.com/images/gnocchi.jpg",
+    "description": "Soft and pillowy potato dumplings that are a delightful alternative to pasta. They can be served with a variety of sauces, from simple butter and sage to a rich tomato sauce.",
+    "prepTime": "30 min",
+    "cookTime": "15 min",
+    "servings": 4,
+    "ingredients": [
+      "1.5 lbs russet potatoes",
+      "1 large egg, lightly beaten",
+      "1.5 cups all-purpose flour",
+      "1/2 tsp salt"
+    ],
+    "instructions": [
+      "Boil the potatoes in their skins until very tender. Drain and, while still hot, peel them. Pass the potatoes through a ricer or mash them very well with a fork until there are no lumps.",
+      "Spread the riced potatoes on a clean surface and let them cool slightly. This allows some steam to escape. Make a well in the center of the potatoes.",
+      "Pour the beaten egg into the well. Sprinkle the flour and salt over the potatoes. Use your hands to gently mix the ingredients together. Knead for just a few minutes until a cohesive dough forms. Do not overwork the dough.",
+      "Divide the dough into 4 sections. Roll each section into a long rope, about 1 inch thick. Cut the rope into 1-inch pieces.",
+      "To create ridges, you can roll each piece over the tines of a fork with your thumb. This helps the sauce stick. Place the gnocchi on a floured baking sheet.",
+      "Bring a large pot of salted water to a boil. Add the gnocchi and cook until they float to the surface, about 2-3 minutes. Remove them with a slotted spoon. Serve immediately with your favorite sauce."
+    ]
+  },
+  {
+    "name": "Gelato",
+    "image": "https://example.com/images/gelato.jpg",
+    "description": "A traditional Italian frozen dessert similar to ice cream but with a higher milk-to-cream ratio, making it denser and richer in flavor.",
+    "prepTime": "20 min",
+    "cookTime": "30 min",
+    "servings": 4,
+    "ingredients": [
+      "2 cups whole milk",
+      "1 cup heavy cream",
+      "1/2 cup sugar",
+      "4 large egg yolks",
+      "1 tsp vanilla extract"
+    ],
+    "instructions": [
+      "In a saucepan, heat the milk and heavy cream over medium heat until it is steaming but not boiling.",
+      "In a separate bowl, whisk the egg yolks and sugar together until light and creamy. Gradually pour a small amount of the hot milk mixture into the egg yolk mixture while whisking constantly. This tempers the eggs.",
+      "Pour the tempered egg mixture back into the saucepan with the remaining milk. Cook over low heat, stirring constantly with a wooden spoon, until the mixture thickens and coats the back of the spoon. Do not let it boil.",
+      "Remove from heat and stir in the vanilla extract. Pour the mixture through a fine-mesh sieve into a clean bowl to remove any solids. Cover the surface directly with plastic wrap and refrigerate until completely chilled, at least 4 hours.",
+      "Once chilled, pour the mixture into your ice cream maker and churn according to the manufacturer's instructions. Transfer the gelato to an airtight container and freeze for at least 2 hours before serving."
+    ]
+  },
+  {
+    "name": "Risotto",
+    "image": "https://example.com/images/risotto.jpg",
+    "description": "A creamy and comforting northern Italian rice dish cooked with broth until it reaches a velvety, al dente consistency. It is a slow and deliberate cooking process.",
+    "prepTime": "10 min",
+    "cookTime": "30 min",
+    "servings": 4,
+    "ingredients": [
+      "1 tbsp olive oil",
+      "1 tbsp butter",
+      "1 small onion, finely chopped",
+      "1.5 cups Arborio rice",
+      "1/2 cup dry white wine",
+      "4-5 cups hot vegetable or chicken broth",
+      "1/2 cup grated Parmesan cheese",
+      "2 tbsp butter",
+      "Salt and black pepper to taste"
+    ],
+    "instructions": [
+      "In a large pot or Dutch oven, heat the olive oil and 1 tbsp butter over medium heat. Add the onion and saute until softened and translucent.",
+      "Add the Arborio rice and stir for 2 minutes until the grains are translucent around the edges. Pour in the white wine and stir until it is completely absorbed.",
+      "Add about 1 cup of the hot broth and stir continuously until it is absorbed by the rice. Continue adding broth, about 1/2 cup at a time, stirring constantly and waiting until each addition is absorbed before adding the next. This process should take about 20 minutes.",
+      "The risotto is ready when the rice is creamy and tender but still has a slight bite to it. Remove the pot from the heat. Stir in the remaining 2 tbsp of butter and the Parmesan cheese. Season with salt and pepper.",
+      "Serve immediately, as risotto can become sticky if left to sit. Garnish with more Parmesan if desired."
+    ]
+  },
+  {
+    "name": "Pizza",
+    "image": "https://example.com/images/pizza.jpg",
+    "description": "A world-famous Italian dish consisting of a round, flat base of dough topped with tomato sauce, cheese, and various other ingredients, baked at high heat.",
+    "prepTime": "2 hours (with rising time)",
+    "cookTime": "15 min",
+    "servings": 2,
+    "ingredients": [
+      "Dough: 1 tsp active dry yeast, 1 tsp sugar, 1/2 cup warm water, 1.5 cups all-purpose flour, 1/2 tsp salt, 1 tbsp olive oil",
+      "Sauce: 1/2 cup crushed tomatoes, 1 clove garlic (minced), 1/2 tsp dried oregano, salt and pepper",
+      "Toppings: 1 cup shredded mozzarella cheese, your choice of toppings like pepperoni, mushrooms, or basil"
+    ],
+    "instructions": [
+      "In a small bowl, dissolve yeast and sugar in warm water. Let it sit for 5 minutes until foamy. In a large bowl, combine flour, salt, olive oil, and the yeast mixture. Knead for 5-7 minutes until a smooth dough forms. Cover and let it rise in a warm place for 1.5 hours.",
+      "Preheat your oven to 450°F (230°C) with a pizza stone or baking sheet inside.",
+      "While the oven heats, make the sauce by mixing crushed tomatoes, minced garlic, oregano, salt, and pepper in a bowl.",
+      "Punch down the dough and divide it into two balls. On a floured surface, roll each ball into a round, thin crust. Transfer the crusts to a piece of parchment paper.",
+      "Spread the tomato sauce evenly over each crust, leaving a border for the edge. Top with shredded mozzarella and your desired toppings.",
+      "Carefully slide the pizza with the parchment paper onto the hot baking sheet or stone. Bake for 12-15 minutes, or until the crust is golden and the cheese is bubbly. Let it cool slightly before slicing and serving."
+    ]
+  },
+  {
+    "name": "Lasagna",
+    "image": "https://example.com/images/lasagna.jpg",
+    "description": "A classic layered pasta dish with wide pasta sheets, a rich meat sauce, and a creamy béchamel or ricotta cheese filling, baked until golden and bubbly.",
+    "prepTime": "30 min",
+    "cookTime": "1 hour",
+    "servings": 8,
+    "ingredients": [
+      "1 box lasagna noodles",
+      "1.5 lbs ground beef or a mix of beef and pork",
+      "1 large onion, finely chopped",
+      "3 cloves garlic, minced",
+      "1 (28 oz) can crushed tomatoes",
+      "1 cup tomato paste",
+      "1/2 cup red wine (optional)",
+      "1 tsp dried oregano",
+      "1/2 tsp red pepper flakes",
+      "15 oz ricotta cheese",
+      "1 large egg",
+      "1/4 cup chopped fresh parsley",
+      "2 cups shredded mozzarella cheese",
+      "1 cup grated Parmesan cheese"
+    ],
+    "instructions": [
+      "Cook the lasagna noodles according to package directions, but remove them about 2 minutes before they're done. Rinse with cold water to prevent sticking.",
+      "For the meat sauce, brown the ground meat in a large pot. Add the chopped onion and cook until soft. Stir in the garlic and cook for 1 minute. Add the crushed tomatoes, tomato paste, red wine (if using), oregano, and red pepper flakes. Simmer for at least 30 minutes.",
+      "In a separate bowl, mix the ricotta cheese, egg, and fresh parsley. Season with salt and pepper.",
+      "Preheat your oven to 375°F (190°C). Begin assembling the lasagna in a 9x13 inch baking dish. Start with a thin layer of meat sauce on the bottom. Add a layer of noodles, then a layer of the ricotta mixture, and a sprinkle of mozzarella.",
+      "Repeat the layers until all ingredients are used, ending with a layer of meat sauce topped with mozzarella and Parmesan cheese.",
+      "Cover the dish with foil and bake for 45 minutes. Remove the foil and bake for another 15 minutes, or until the cheese is melted and golden. Let the lasagna rest for 10 minutes before slicing."
+    ]
+  }
+]

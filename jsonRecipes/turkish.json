@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Doner Kebab",
+    "image": "https://example.com/images/doner-kebab.jpg",
+    "description": "A popular Turkish street food made from seasoned meat cooked on a vertical rotisserie, then sliced and served in a flatbread with vegetables and sauce.",
+    "prepTime": "20 min",
+    "cookTime": "2-3 hours",
+    "servings": 4,
+    "ingredients": [
+      "1.5 lbs ground lamb or beef",
+      "1 large onion, grated",
+      "2 cloves garlic, minced",
+      "1 tsp salt",
+      "1/2 tsp black pepper",
+      "1 tsp red pepper flakes",
+      "1/2 tsp cumin powder",
+      "1/2 tsp paprika",
+      "4 flatbreads or pita breads",
+      "Sliced tomatoes, onions, lettuce",
+      "Yogurt sauce or tahini"
+    ],
+    "instructions": [
+      "In a large bowl, combine the ground meat, grated onion, minced garlic, salt, black pepper, red pepper flakes, cumin, and paprika. Mix well until everything is evenly combined.",
+      "Shape the meat mixture into a large, dense loaf or cylinder. Wrap it tightly in plastic wrap and refrigerate for at least 1 hour to allow the flavors to meld and the loaf to firm up.",
+      "To cook, you can use a rotisserie, but for a home version, you can roast the loaf in the oven. Preheat your oven to 350°F (175°C). Place the meat loaf on a wire rack over a baking sheet and bake for 2-3 hours, or until cooked through.",
+      "Let the loaf cool slightly, then use a sharp knife to slice it very thinly. The slices can be fried in a pan for a crispier texture.",
+      "Warm the flatbreads. Fill each with a generous amount of the sliced meat, fresh tomatoes, onions, and lettuce. Drizzle with your choice of sauce and serve immediately."
+    ]
+  },
+  {
+    "name": "Dolma",
+    "image": "https://example.com/images/dolma.jpg",
+    "description": "Grape leaves stuffed with a mixture of seasoned rice and sometimes ground meat. They can be served hot or cold and are a popular meze dish.",
+    "prepTime": "30 min",
+    "cookTime": "1 hour",
+    "servings": 4,
+    "ingredients": [
+      "1 jar (16 oz) brined grape leaves",
+      "1 cup short-grain rice, rinsed",
+      "1 large onion, finely chopped",
+      "1/2 cup finely chopped parsley",
+      "1/4 cup finely chopped dill",
+      "1/4 cup olive oil",
+      "1 tbsp tomato paste",
+      "1 tsp salt",
+      "1/2 tsp black pepper",
+      "1 cup water",
+      "1 lemon, sliced"
+    ],
+    "instructions": [
+      "Rinse the brined grape leaves thoroughly under cold water to remove excess salt. Set aside.",
+      "In a bowl, combine the rinsed rice, chopped onion, parsley, dill, half of the olive oil, tomato paste, salt, and pepper. Mix well to create the filling.",
+      "Lay a grape leaf on a flat surface, shiny side down. Place a teaspoon of the filling at the base of the leaf. Fold the bottom edge over the filling, fold in the sides, and then roll it up tightly, like a small cigar.",
+      "Place the remaining grape leaves at the bottom of a large pot to prevent the dolmas from sticking. Arrange the dolmas in tight, single layers inside the pot.",
+      "Pour the water and the remaining olive oil over the dolmas. Place the lemon slices on top and weigh them down with a heavy plate to keep them from unraveling while cooking.",
+      "Bring to a boil, then reduce heat to low, cover, and simmer for about 45-60 minutes, or until the rice is cooked through. Let them cool before serving."
+    ]
+  },
+  {
+    "name": "Pide",
+    "image": "https://example.com/images/pide.jpg",
+    "description": "A Turkish flatbread often shaped like a boat and topped with various ingredients, such as cheese, ground meat, or vegetables. It's often called 'Turkish pizza.'",
+    "prepTime": "30 min",
+    "cookTime": "15-20 min",
+    "servings": 4,
+    "ingredients": [
+      "1 cup warm water",
+      "1 tsp active dry yeast",
+      "1 tsp sugar",
+      "3 cups all-purpose flour",
+      "1 tsp salt",
+      "2 tbsp olive oil",
+      "1 lb ground lamb or beef",
+      "1 large onion, finely chopped",
+      "1 tbsp tomato paste",
+      "1/2 tsp paprika",
+      "1/2 tsp red pepper flakes",
+      "Salt and pepper",
+      "1 egg yolk"
+    ],
+    "instructions": [
+      "In a small bowl, dissolve yeast and sugar in warm water. Let it sit for 5 minutes until foamy. In a large bowl, mix flour and salt. Add the yeast mixture and olive oil, then knead until you have a smooth dough. Cover and let rise for 1 hour.",
+      "While the dough is rising, prepare the topping. In a pan, cook the ground meat until browned. Drain any excess fat. Add the chopped onion and cook until softened. Stir in the tomato paste, paprika, red pepper flakes, salt, and pepper. Cook for 5 minutes.",
+      "Preheat your oven to 450°F (230°C). Divide the dough into four equal pieces. Roll each piece into an oval or boat shape about 1/4-inch thick. Pinch the edges to form a crust.",
+      "Spread the meat mixture evenly over the dough, leaving the edges clear. Place the pides on a baking sheet. Brush the edges with egg yolk.",
+      "Bake for 15-20 minutes, or until the crust is golden brown and the filling is cooked through. Serve hot."
+    ]
+  },
+  {
+    "name": "Lahmacun",
+    "image": "https://example.com/images/lahmacun.jpg",
+    "description": "A thin, round piece of dough topped with spiced ground meat and vegetables, then baked. It is often served rolled up with fresh vegetables and a squeeze of lemon.",
+    "prepTime": "20 min",
+    "cookTime": "10-12 min",
+    "servings": 4,
+    "ingredients": [
+      "1.5 cups all-purpose flour",
+      "1/2 cup warm water",
+      "1/2 tsp active dry yeast",
+      "1/2 tsp salt",
+      "1 tbsp olive oil",
+      "1/2 lb ground lamb or beef",
+      "1 medium tomato, grated",
+      "1 small onion, grated",
+      "1 clove garlic, minced",
+      "1/2 cup finely chopped parsley",
+      "1 tsp paprika",
+      "1/2 tsp red pepper flakes",
+      "Salt and black pepper"
+    ],
+    "instructions": [
+      "To make the dough, in a bowl, mix flour, yeast, salt, and olive oil. Add warm water and knead for 5 minutes until a smooth dough forms. Cover and let it rest for 20 minutes.",
+      "Preheat your oven to 475°F (245°C) with a pizza stone or baking sheet inside to get very hot.",
+      "For the topping, combine all the topping ingredients in a bowl. Mix well with your hands until the meat is fully coated and the mixture is pasty.",
+      "Divide the dough into four balls. Roll each ball out into a very thin circle, about 8 inches in diameter. Spread a thin, even layer of the meat mixture over the dough, all the way to the edges.",
+      "Carefully transfer the lahmacun to the hot pizza stone or baking sheet. Bake for 8-10 minutes, or until the dough is crispy and the meat is cooked through.",
+      "Remove from the oven and serve immediately, often with a sprinkle of fresh parsley and a squeeze of lemon juice. It's traditionally rolled up to eat."
+    ]
+  },
+  {
+    "name": "Borek",
+    "image": "https://example.com/images/borek.jpg",
+    "description": "A savory pastry made from thin, flaky layers of phyllo dough and a filling, often with cheese, meat, or vegetables. It can be baked into many different shapes.",
+    "prepTime": "20 min",
+    "cookTime": "30-40 min",
+    "servings": 6,
+    "ingredients": [
+      "1 lb phyllo dough, thawed",
+      "1/2 cup melted butter",
+      "1 lb crumbled feta cheese",
+      "1/4 cup finely chopped parsley",
+      "2 eggs",
+      "1/4 tsp black pepper",
+      "1 tbsp milk"
+    ],
+    "instructions": [
+      "Preheat your oven to 375°F (190°C). Grease a round baking dish or a 9x13 inch pan.",
+      "To make the filling, in a bowl, combine the crumbled feta cheese, chopped parsley, and one egg. Mix well to create a cohesive filling.",
+      "Lay one sheet of phyllo dough on a flat surface and brush it with melted butter. Layer another sheet on top and brush with butter. Repeat for about 4-5 sheets.",
+      "Spread half of the cheese filling evenly over the phyllo layers. Tightly roll the phyllo into a log. Repeat the process with the remaining phyllo and filling to create a second log.",
+      "Cut the logs into 2-inch pieces and arrange them in the prepared baking dish. You can arrange them in a spiral pattern for a round dish or in rows for a rectangular pan.",
+      "In a small bowl, whisk together the egg and milk for the egg wash. Brush the borek pieces generously with the egg wash.",
+      "Bake for 30-40 minutes, or until the top is golden brown and flaky. Let it cool for a few minutes before serving."
+    ]
+  }
+]

@@ -1,0 +1,245 @@
+[
+  {
+    "name": "Hamburgers",
+    "image": "https://example.com/images/hamburgers.jpg",
+    "description": "The quintessential American classic, a juicy beef patty cooked to perfection and served on a bun with your favorite toppings.",
+    "prepTime": "10 min",
+    "cookTime": "10-15 min",
+    "servings": 4,
+    "ingredients": [
+      "1.5 lbs ground beef (80/20 blend is ideal)",
+      "1 tsp salt",
+      "1/2 tsp black pepper",
+      "1/2 tsp garlic powder",
+      "4 hamburger buns",
+      "Your choice of toppings: sliced cheese, lettuce, tomato, onion, pickles"
+    ],
+    "instructions": [
+      "In a medium bowl, gently mix the ground beef, salt, pepper, and garlic powder. Be careful not to overwork the meat.",
+      "Divide the mixture into four equal portions and form them into patties about 3/4-inch thick. Press a small indentation into the center of each patty with your thumb to prevent it from puffing up while cooking.",
+      "Heat a grill or a large skillet over medium-high heat. Cook the patties for 4-6 minutes per side for medium-rare, or longer for your desired doneness.",
+      "During the last minute of cooking, place a slice of cheese on each patty if desired and let it melt.",
+      "Lightly toast the hamburger buns on the grill or skillet.",
+      "Assemble the burgers on the toasted buns with your favorite toppings. Serve hot."
+    ]
+  },
+  {
+    "name": "Apple Pie",
+    "image": "https://example.com/images/apple-pie.jpg",
+    "description": "A comforting dessert with a flaky crust and a sweet, spiced apple filling, a true symbol of American home cooking.",
+    "prepTime": "30 min",
+    "cookTime": "50-60 min",
+    "servings": 8,
+    "ingredients": [
+      "1 recipe for double pie crust (or 2 refrigerated pie crusts)",
+      "6-8 medium baking apples (such as Granny Smith or Honeycrisp), peeled, cored, and sliced 1/4-inch thick",
+      "3/4 cup granulated sugar",
+      "2 tbsp all-purpose flour",
+      "1/2 tsp ground cinnamon",
+      "1/4 tsp ground nutmeg",
+      "1 tbsp lemon juice",
+      "1 tbsp butter, cut into small pieces"
+    ],
+    "instructions": [
+      "Preheat your oven to 425°F (220°C).",
+      "In a large bowl, combine the sliced apples, sugar, flour, cinnamon, nutmeg, and lemon juice. Toss to coat evenly.",
+      "Roll out one pie crust and place it in a 9-inch pie dish. Trim the edges to a 1-inch overhang.",
+      "Pour the apple filling into the pie dish and dot with the pieces of butter.",
+      "Roll out the second pie crust and place it over the filling. Trim and crimp the edges to seal. Cut several slits in the top crust to vent steam.",
+      "Place the pie on a baking sheet to catch any drips. Bake for 15 minutes, then reduce the oven temperature to 375°F (190°C) and bake for another 35-45 minutes, or until the crust is golden brown and the filling is bubbly.",
+      "Let the pie cool for at least 2 hours before slicing and serving."
+    ]
+  },
+  {
+    "name": "Beef Brisket",
+    "image": "https://example.com/images/beef-brisket.jpg",
+    "description": "Slow-smoked or oven-braised beef brisket, known for its tender, melt-in-your-mouth texture and rich, smoky flavor.",
+    "prepTime": "20 min",
+    "cookTime": "12-16 hours",
+    "servings": 10,
+    "ingredients": [
+      "1 full packer brisket (12-15 lbs)",
+      "1/2 cup coarse kosher salt",
+      "1/2 cup coarse black pepper",
+      "1/4 cup garlic powder",
+      "1/4 cup onion powder",
+      "Wood for smoking (hickory or oak is traditional)"
+    ],
+    "instructions": [
+      "Trim the excess fat from the brisket, leaving a 1/4-inch fat cap on top. This fat will keep the meat moist during the long cooking process.",
+      "In a small bowl, mix the salt, black pepper, garlic powder, and onion powder to create a rub. Generously coat all sides of the brisket with the rub.",
+      "Preheat your smoker to 225-250°F (107-121°C). Add the wood chunks to the smoker.",
+      "Place the brisket, fat-side up, on the smoker grates. Cook for 12-16 hours, or until the internal temperature reaches 203°F (95°C) and the brisket is probe-tender.",
+      "Once cooked, wrap the brisket tightly in butcher paper or foil and let it rest in a cooler for at least 1 hour before slicing against the grain. This resting period is crucial for a juicy result."
+    ]
+  },
+  {
+    "name": "Hot Dogs",
+    "image": "https://example.com/images/hot-dogs.jpg",
+    "description": "A classic summertime meal, a grilled hot dog served in a bun with your choice of toppings, from simple ketchup and mustard to elaborate chili and cheese.",
+    "prepTime": "5 min",
+    "cookTime": "5-10 min",
+    "servings": 4,
+    "ingredients": [
+      "4 all-beef hot dogs",
+      "4 hot dog buns",
+      "Condiments and toppings: mustard, ketchup, relish, chopped onions, chili, cheese"
+    ],
+    "instructions": [
+      "Preheat a grill to medium heat. Alternatively, you can use a large skillet over medium-high heat.",
+      "Place the hot dogs on the grill and cook, turning occasionally, until they are heated through and have grill marks, about 5-7 minutes.",
+      "During the last minute of cooking, place the hot dog buns on the grill to toast them lightly.",
+      "Place a hot dog in each toasted bun and top with your favorite condiments and toppings. Serve immediately."
+    ]
+  },
+  {
+    "name": "Mac and Cheese",
+    "image": "https://example.com/images/mac-and-cheese.jpg",
+    "description": "The ultimate comfort food, creamy and rich macaroni and cheese with a golden, crispy breadcrumb topping.",
+    "prepTime": "15 min",
+    "cookTime": "25 min",
+    "servings": 6,
+    "ingredients": [
+      "1 lb elbow macaroni",
+      "4 tbsp unsalted butter",
+      "4 tbsp all-purpose flour",
+      "4 cups whole milk",
+      "1 tsp salt",
+      "1/2 tsp black pepper",
+      "1/2 tsp paprika",
+      "1/4 tsp mustard powder",
+      "4 cups shredded sharp cheddar cheese",
+      "1 cup panko breadcrumbs",
+      "2 tbsp melted butter"
+    ],
+    "instructions": [
+      "Preheat your oven to 350°F (175°C). Cook the macaroni according to package directions, then drain and set aside.",
+      "In a large saucepan or pot, melt the butter over medium heat. Whisk in the flour and cook for 1 minute to form a roux.",
+      "Gradually whisk in the milk until the mixture is smooth. Bring to a simmer, whisking constantly, and cook until the sauce thickens, about 5 minutes.",
+      "Stir in the salt, pepper, paprika, and mustard powder. Remove from heat and gradually stir in the shredded cheese until it has melted completely and the sauce is smooth.",
+      "Add the cooked macaroni to the cheese sauce and stir to combine. Pour the mixture into a 9x13-inch baking dish.",
+      "In a small bowl, mix the panko breadcrumbs with the melted butter. Sprinkle the breadcrumb mixture evenly over the top of the mac and cheese.",
+      "Bake for 20-25 minutes, or until the topping is golden and the sauce is bubbly."
+    ]
+  },
+  {
+    "name": "Clam Chowder",
+    "image": "https://example.com/images/clam-chowder.jpg",
+    "description": "A creamy, hearty soup with tender clams, diced potatoes, and a savory broth, a staple of New England cuisine.",
+    "prepTime": "15 min",
+    "cookTime": "30 min",
+    "servings": 6,
+    "ingredients": [
+      "4 strips bacon, diced",
+      "1 medium onion, diced",
+      "2 ribs celery, diced",
+      "1 large russet potato, peeled and diced",
+      "1/4 cup all-purpose flour",
+      "2 bottles (8 oz each) clam juice",
+      "1.5 cups whole milk",
+      "1 can (6.5 oz) chopped clams, drained, with juice reserved",
+      "1/2 tsp dried thyme",
+      "Salt and black pepper to taste"
+    ],
+    "instructions": [
+      "In a large pot or Dutch oven, cook the diced bacon over medium heat until crispy. Remove the bacon with a slotted spoon and set aside, leaving the bacon grease in the pot.",
+      "Add the onion and celery to the pot and cook until softened, about 5 minutes. Stir in the diced potato and cook for another 2 minutes.",
+      "Sprinkle the flour over the vegetables and stir for 1 minute. Gradually whisk in the clam juice and reserved clam juice from the can, stirring to prevent lumps.",
+      "Bring the mixture to a simmer and cook until the potatoes are tender, about 10-15 minutes.",
+      "Reduce the heat to low. Stir in the milk, chopped clams, and thyme. Cook gently until heated through, being careful not to let the soup boil.",
+      "Season with salt and pepper. Ladle into bowls and top with the reserved crispy bacon before serving."
+    ]
+  },
+  {
+    "name": "Cheesesteak",
+    "image": "https://example.com/images/cheesesteak.jpg",
+    "description": "Thinly sliced steak and melted cheese served on a long roll, a delicious and classic sandwich from Philadelphia.",
+    "prepTime": "10 min",
+    "cookTime": "15 min",
+    "servings": 2,
+    "ingredients": [
+      "1 lb thinly sliced beef ribeye or top round",
+      "1 tbsp vegetable oil",
+      "1 large onion, sliced",
+      "4-6 slices American cheese or provolone (or Cheez Whiz)",
+      "2 long hoagie rolls",
+      "Salt and black pepper to taste"
+    ],
+    "instructions": [
+      "Heat the vegetable oil in a large skillet or griddle over medium-high heat. Add the sliced onions and cook until soft and caramelized, about 8-10 minutes. Remove the onions and set them aside.",
+      "Add the sliced beef to the same skillet. Spread it out in a thin layer and season with salt and pepper. Cook for 2-3 minutes, then chop and flip the meat with a spatula until it's cooked through.",
+      "Stir the cooked onions back into the beef. Divide the mixture into two portions on the griddle.",
+      "Place 2-3 slices of cheese over each portion of meat and let it melt. Place a split hoagie roll over each portion and let it steam slightly to soften the bread.",
+      "Using the spatula, scoop up the meat and cheese mixture and transfer it into the rolls. Serve immediately."
+    ]
+  },
+  {
+    "name": "Thanksgiving Turkey",
+    "image": "https://example.com/images/thanksgiving-turkey.jpg",
+    "description": "A perfectly roasted whole turkey with crispy skin and moist, flavorful meat, the centerpiece of any Thanksgiving feast.",
+    "prepTime": "30 min",
+    "cookTime": "3-5 hours (or longer, depending on size)",
+    "servings": 10,
+    "ingredients": [
+      "1 whole turkey (12-15 lbs), thawed",
+      "1 stick (1/2 cup) unsalted butter, softened",
+      "1 tbsp poultry seasoning",
+      "1 tsp salt",
+      "1/2 tsp black pepper",
+      "1 large onion, quartered",
+      "1 head of garlic, halved",
+      "1 lemon, halved",
+      "Fresh herbs (rosemary, thyme, sage)"
+    ],
+    "instructions": [
+      "Preheat your oven to 325°F (165°C). Remove the turkey from its packaging and pat it completely dry with paper towels.",
+      "In a small bowl, mix the softened butter with the poultry seasoning, salt, and pepper.",
+      "Loosen the skin over the turkey breast and rub about half of the butter mixture directly onto the meat under the skin. Rub the remaining butter over the outside of the skin.",
+      "Stuff the turkey cavity with the quartered onion, halved garlic, halved lemon, and fresh herbs.",
+      "Place the turkey on a roasting rack in a large roasting pan. Roast for about 13-15 minutes per pound, or until a meat thermometer inserted into the thickest part of the thigh reads 165°F (74°C).",
+      "Remove the turkey from the oven and let it rest for at least 30 minutes before carving. This allows the juices to redistribute, ensuring a moist and tender result."
+    ]
+  },
+  {
+    "name": "Grits",
+    "image": "https://example.com/images/grits.jpg",
+    "description": "A classic Southern staple, a creamy and savory cornmeal porridge often served as a side dish or breakfast.",
+    "prepTime": "5 min",
+    "cookTime": "15-20 min",
+    "servings": 4,
+    "ingredients": [
+      "4 cups water or milk",
+      "1 cup stone-ground grits",
+      "1 tsp salt",
+      "2 tbsp unsalted butter",
+      "1/4 cup shredded cheese (cheddar or Monterey Jack, optional)"
+    ],
+    "instructions": [
+      "In a medium saucepan, bring the water (or milk) and salt to a boil. Slowly whisk in the grits to prevent lumps.",
+      "Reduce the heat to low and simmer, stirring frequently, until the grits are thick and creamy, about 15-20 minutes for stone-ground grits.",
+      "Stir in the butter until it's melted and fully incorporated. If using cheese, stir it in until it's melted and smooth.",
+      "Season with additional salt if needed. Serve hot as a side dish or with toppings like bacon, shrimp, or eggs."
+    ]
+  },
+  {
+    "name": "Tater Tots",
+    "image": "https://example.com/images/tater-tots.jpg",
+    "description": "Small, crispy, grated potato cylinders, deep-fried to perfection. A beloved American side dish or snack.",
+    "prepTime": "5 min",
+    "cookTime": "20-25 min",
+    "servings": 4,
+    "ingredients": [
+      "1 lb frozen tater tots",
+      "2 tbsp vegetable oil (for baking)",
+      "Salt to taste",
+      "Your choice of dipping sauces: ketchup, ranch dressing, or fry sauce"
+    ],
+    "instructions": [
+      "Preheat your oven to 425°F (220°C).",
+      "Spread the frozen tater tots in a single, even layer on a baking sheet. Drizzle with vegetable oil and toss to coat.",
+      "Bake for 20-25 minutes, or until the tots are golden brown and crispy, flipping them halfway through to ensure even browning.",
+      "Remove from the oven and transfer to a serving bowl. Sprinkle with salt to taste.",
+      "Serve hot with your favorite dipping sauces."
+    ]
+  }
+]

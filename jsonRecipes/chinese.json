@@ -1,0 +1,131 @@
+[
+  {
+    "name": "Peking Duck",
+    "image": "https://example.com/images/peking-duck.jpg",
+    "description": "A famous dish from Beijing, known for its thin, crispy skin and tender meat. It is traditionally served with thin pancakes, scallions, and hoisin sauce.",
+    "prepTime": "24-48 hours",
+    "cookTime": "2-3 hours",
+    "servings": 4,
+    "ingredients": [
+      "1 whole duck (4-5 lbs)",
+      "1/2 cup honey",
+      "1/2 cup boiling water",
+      "2 tbsp soy sauce",
+      "1 tbsp rice vinegar",
+      "Peking duck pancakes",
+      "1 bunch of scallions, cut into 3-inch lengths",
+      "1 small cucumber, julienned",
+      "Hoisin sauce"
+    ],
+    "instructions": [
+      "Clean the duck and pat it dry. Using a sharp knife or skewer, prick the duck skin all over. Pour boiling water over the skin to tighten it, then pat it dry again.",
+      "Prepare the basting liquid by mixing honey, boiling water, soy sauce, and rice vinegar. Baste the duck all over with this mixture.",
+      "Hang the duck in a cool, dry, and well-ventilated place (like in front of a fan in the refrigerator) for 24-48 hours to dry the skin.",
+      "Preheat your oven to 375°F (190°C). Place the duck on a rack over a roasting pan with an inch of water in the bottom.",
+      "Roast for 1.5 hours, then flip the duck and roast for another 1-1.5 hours, or until the skin is a deep mahogany color and crispy.",
+      "Let the duck rest for 15 minutes before carving. Slice off the crispy skin first, followed by the meat. Serve hot with the pancakes, scallions, cucumber, and hoisin sauce."
+    ]
+  },
+  {
+    "name": "Kung Pao Chicken",
+    "image": "https://example.com/images/kung-pao-chicken.jpg",
+    "description": "A spicy, stir-fried Chinese dish made with cubes of chicken, peanuts, vegetables, and chili peppers. It's a sweet, sour, and savory delight.",
+    "prepTime": "20 min",
+    "cookTime": "15 min",
+    "servings": 4,
+    "ingredients": [
+      "1 lb boneless, skinless chicken breast, cut into 1-inch cubes",
+      "1/2 cup roasted peanuts",
+      "1/2 cup dried red chili peppers",
+      "1 bell pepper, diced",
+      "1/2 cup scallions, chopped",
+      "For marinade: 1 tbsp soy sauce, 1 tbsp Shaoxing wine, 1 tsp cornstarch",
+      "For sauce: 2 tbsp soy sauce, 1 tbsp black vinegar, 1 tbsp sugar, 1 tsp cornstarch, 2 tbsp chicken broth"
+    ],
+    "instructions": [
+      "Marinate the chicken cubes with the marinade ingredients for at least 15 minutes.",
+      "In a small bowl, whisk together the sauce ingredients until smooth.",
+      "Heat a wok or large skillet over high heat with 1 tbsp of oil. Add the marinated chicken and stir-fry until cooked through. Remove the chicken from the wok.",
+      "Add another tablespoon of oil to the wok. Add the dried red chilies and stir-fry for 30 seconds. Add the diced bell pepper and scallions and stir-fry for 2 minutes.",
+      "Return the chicken to the wok. Pour the sauce over everything and stir quickly until the sauce thickens and coats the chicken and vegetables.",
+      "Stir in the peanuts just before serving. Serve immediately with steamed rice."
+    ]
+  },
+  {
+    "name": "Vegetable Dumplings",
+    "image": "https://example.com/images/vegetable-dumplings.jpg",
+    "description": "Delicious, handmade dumplings filled with a savory mix of finely chopped vegetables. They can be pan-fried or steamed.",
+    "prepTime": "30 min",
+    "cookTime": "15 min",
+    "servings": 4,
+    "ingredients": [
+      "1 pack of dumpling wrappers",
+      "2 cups finely shredded cabbage",
+      "1 cup shredded carrots",
+      "1/2 cup finely chopped mushrooms",
+      "2 tbsp finely minced ginger",
+      "2 tbsp soy sauce",
+      "1 tbsp sesame oil",
+      "1/2 tsp sugar",
+      "1/4 tsp white pepper"
+    ],
+    "instructions": [
+      "In a large bowl, mix all the filling ingredients together until well combined.",
+      "Place a dumpling wrapper in your hand. Place about 1 teaspoon of the filling in the center. Moisten the edge with water and fold it in half, creating pleats along one side to seal it.",
+      "To pan-fry: Heat a large non-stick skillet over medium-high heat with 1 tbsp of oil. Arrange the dumplings in a single layer and cook for 2-3 minutes until the bottoms are golden and crispy. Add about 1/4 cup of water, cover, and steam for 5-7 minutes until the water has evaporated.",
+      "Serve hot with a dipping sauce made from soy sauce, black vinegar, and chili oil."
+    ]
+  },
+  {
+    "name": "Mapo Tofu",
+    "image": "https://example.com/images/mapo-tofu.jpg",
+    "description": "A popular and spicy Chinese dish from the Sichuan province. It consists of soft tofu set in a spicy sauce with fermented broad bean and chili paste, and a small amount of ground meat.",
+    "prepTime": "10 min",
+    "cookTime": "15 min",
+    "servings": 2,
+    "ingredients": [
+      "1 block silken or soft tofu, cut into 1-inch cubes",
+      "4 oz ground pork or beef (optional)",
+      "2 tbsp fermented broad bean and chili paste (doubanjiang)",
+      "1 tbsp fermented black beans (douchi), rinsed and minced",
+      "2 cloves garlic, minced",
+      "1 tsp minced ginger",
+      "1 cup chicken or vegetable broth",
+      "1 tbsp cornstarch mixed with 2 tbsp water",
+      "1 tbsp Sichuan peppercorn oil",
+      "Chopped scallions for garnish"
+    ],
+    "instructions": [
+      "Gently blanch the tofu cubes in boiling water for 1-2 minutes. Carefully remove and set aside.",
+      "Heat a wok or skillet over medium-high heat. Add the ground meat and cook until it's browned.",
+      "Stir in the fermented broad bean paste, fermented black beans, garlic, and ginger. Cook until fragrant, about 1-2 minutes.",
+      "Pour in the broth and bring it to a simmer. Gently add the blanched tofu cubes. Pour in the cornstarch slurry and stir gently until the sauce thickens.",
+      "Turn off the heat. Drizzle with Sichuan peppercorn oil and garnish with chopped scallions. Serve immediately with steamed rice."
+    ]
+  },
+  {
+    "name": "Hot Pot",
+    "image": "https://example.com/images/hot-pot.jpg",
+    "description": "A communal dining experience where a simmering pot of broth is placed at the center of the table. Diners cook various raw ingredients in the broth and then dip them in sauces.",
+    "prepTime": "20 min",
+    "cookTime": "Varies",
+    "servings": 4,
+    "ingredients": [
+      "4 cups chicken, beef, or vegetable broth",
+      "Slices of ginger, scallions, or dried chili peppers (to flavor the broth)",
+      "Thinly sliced meats (beef, lamb, pork)",
+      "Seafood (shrimp, fish balls)",
+      "Vegetables (bok choy, napa cabbage, mushrooms, lotus root, corn)",
+      "Tofu and tofu products",
+      "Noodles (udon, instant noodles)",
+      "Dipping sauces: sesame paste, soy sauce, sesame oil, minced garlic, scallions, chili oil"
+    ],
+    "instructions": [
+      "Prepare the broth: In a large pot or electric hot pot cooker, combine the broth with flavorings. Bring it to a steady simmer at the center of the dining table.",
+      "Arrange all the raw ingredients neatly on separate platters for guests.",
+      "Set up a sauce bar so guests can create their own dipping sauces.",
+      "Guests use chopsticks or a ladle to place their chosen raw ingredients into the simmering broth. Thinly sliced meat and vegetables will cook in seconds.",
+      "Once cooked, retrieve the ingredients from the broth and dip them in your prepared sauce before eating. At the end of the meal, the broth can be enjoyed as a soup."
+    ]
+  }
+]
