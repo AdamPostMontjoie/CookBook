@@ -1,29 +1,74 @@
-import { View, Text, StyleSheet, ScrollView, Pressable, TextInput } from 'react-native';
+import { View, Text, StyleSheet, ActivityIndicator, Image, ScrollView, Pressable, TextInput } from 'react-native';
 import { useLocalSearchParams, Link } from 'expo-router';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import "../../global.css";
+import AnimatedFavoritesButton from '../../components/AnimatedFavoritesButton';
+import AnimatedDeleteButton from '../../components/AnimatedDeleteButton';
 import { useAuth } from '../../services/context/authContext';
+import { addFavorite, deleteFavorite } from '../../services/recipeFunctions';
 
 export default function Cusine() {
   const { foodType } = useLocalSearchParams();
-  const {userLoggedIn} = useAuth()
+  const {currentUser, loading} = useAuth()
   const [filter,setFilter] = useState('');
+  const [filteredFood,setFilteredFood] = useState(null)
+  const [error, setError] = useState(null);
+  const [isFavorites,setIsFavorites] = useState(false);
+  const [loadingFood, setLoadingFood] = useState(true);
+  const [reloadOnDelete,setReloadOnDelete] = useState(false)
   const [food, setFood] = useState(null);
   const foodQuery = foodType.replaceAll(" ", "").toLowerCase();
   const backendUrl = process.env.EXPO_PUBLIC_BACKEND_URL;
+  
   useEffect(()=>{
+    setError(null)
+    setLoadingFood(true)
+    setIsFavorites(false)
+    setReloadOnDelete(false)
+    setFilteredFood(null)
     async function getRecipes(){
       try{
-        const result = await axios.get(`${backendUrl}/recipes/${foodQuery}`)
+        console.log("sending req")
+        let result
+        if(foodQuery != "myfavorites"){
+           result = await axios.get(`${backendUrl}/recipes/${foodQuery}`)
+        } else {
+          setIsFavorites(true)
+          result = await axios.get(`${backendUrl}/favorites/${currentUser.uid}`)
+        }
         setFood(result.data)
-        console.log(result.data)
+        setFilteredFood(result.data)
       } catch(err){
         console.error(err)
+        setError(err.message);
+      }  finally {
+        setLoadingFood(false);
       }
       
     }
-  },[foodQuery])
+    getRecipes()
+  },[foodQuery,reloadOnDelete])
+useEffect(()=>{
+  function filterText(){
+    setFilteredFood(food.filter((x)=> x.name.includes(filter.toLowerCase())))
+  } 
+  filterText()
+},[filter])
+
+
+
+async function addToFavorites(recipe) {
+    const result = await addFavorite(currentUser,recipe)
+    setFavoriteMessage(result.message);
+    setTimeout(() => {
+        setFavoriteMessage(null);
+    }, 3000);
+  } 
+async function deleteFromFavorites(recipe){
+  await deleteFavorite(currentUser,recipe);
+  setReloadOnDelete(true)
+}
 
 
   return (
@@ -41,38 +86,66 @@ export default function Cusine() {
           value={filter}
         />
       </View>
-      {food && food.length > 0 ? (
-        <ScrollView contentContainerStyle={styles.scrollContent}>
-          {food.map((dish, index)=>{
+      
+      {  loading || loadingFood ? (
+          <ActivityIndicator />
+        ) : error ? (
+          <Text>{error}</Text>
+        ) :     
+      filteredFood && filteredFood.length > 0 ? (
+        <ScrollView
+         contentContainerStyle={styles.scrollContent}
+         showsVerticalScrollIndicator={false} 
+         >
+          {filteredFood.map((dish, index)=>{
             return (
-              <View key={dish.name || index} style={styles.card}>
-                <Image
-                  style={styles.image}
-                  source={{ uri: dish.image }}
-                />
-                <View style={styles.infoContainer}>
-                  <Text style={styles.cardTitle}>{dish.name}</Text>
-                  <View style={styles.detailsRow}>
-                    <View style={styles.detailItem}>
-                      <Text style={styles.detailLabel}>Prep Time:</Text>
-                      <Text style={styles.detailValue}>{dish.prepTime}</Text>
+              <Link 
+                  key={dish._id}
+                 href={{
+                    pathname: `/Cusine/recipe/${dish.name.replace(/\s+/g, '-').toLowerCase()}`,
+                    params: {
+                      recipeData: JSON.stringify(dish)
+                    }
+                  }}
+                  asChild
+              >
+              <Pressable>
+                <View  style={styles.card}>
+                  <Image
+                    style={styles.image}
+                    source={{ uri: dish.image }}
+                  />
+                  <View style={styles.infoContainer}>
+                    <Text style={styles.cardTitle}>{dish.name}</Text>
+                    <View className="mb-4" style={styles.detailsRow}>
+                      <View style={styles.detailItem}>
+                        <Text style={styles.detailLabel}>Prep Time:</Text>
+                        <Text style={styles.detailValue}>{dish.prepTime}</Text>
+                      </View>
+                      <View style={styles.detailItem}>
+                        <Text style={styles.detailLabel}>Cook Time:</Text>
+                        <Text style={styles.detailValue}>{dish.cookTime}</Text>
+                      </View>
+                      <View style={styles.detailItem}>
+                        <Text style={styles.detailLabel}>Servings:</Text>
+                        <Text style={styles.detailValue}>{dish.servings}</Text>
+                      </View>
                     </View>
-                    <View style={styles.detailItem}>
-                      <Text style={styles.detailLabel}>Cook Time:</Text>
-                      <Text style={styles.detailValue}>{dish.cookTime}</Text>
-                    </View>
-                    <View style={styles.detailItem}>
-                      <Text style={styles.detailLabel}>Servings:</Text>
-                      <Text style={styles.detailValue}>{dish.servings}</Text>
-                    </View>
+                    { !isFavorites && (
+                      <AnimatedFavoritesButton onPress={() => addToFavorites(dish)} />
+                    )}
+                    { isFavorites && (
+                      <AnimatedDeleteButton onPress={() => deleteFromFavorites(dish)} />
+                    )}
                   </View>
                 </View>
-              </View>
+              </Pressable>
+              </Link>
             );
           })}
         </ScrollView>
       ) : (
-        !loading && !error && <Text style={{ marginTop: 20 }}>No recipes found.</Text>
+          <Text style={{ marginTop: 20 }}>No recipes found.</Text>
       )}
     </View>
   );
@@ -81,8 +154,7 @@ export default function Cusine() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    // Removed justifyContent and alignItems from here
     backgroundColor: '#fff',
   },
   title: {
@@ -92,14 +164,14 @@ const styles = StyleSheet.create({
   },
   scrollContent: {
     width: '100%',
-    alignItems: 'center',
+    paddingHorizontal: 15, 
     paddingBottom: 20,
   },
   card: {
     backgroundColor: '#fff',
     borderRadius: 8,
     marginVertical: 10,
-    width: '90%',
+    width: '100%', 
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,

@@ -33,6 +33,7 @@ export default function CuisineLayout() {
           title: foodType,
         }} 
       />
+      <Stack.Screen name="recipe" options={{ headerShown: false }} />
     </Stack>
   );
 }

@@ -5,3 +5,4 @@ curl -X POST -H "Content-Type: application/json" -d @<fileName>.json http://loca
 
 example
 curl -X POST -H "Content-Type: application/json" -d @japanese.json http://localhost:3000/recipes/japanesefood
+curl -X POST -H "Content-Type: application/json" -d @chinese.json http://localhost:3000/recipes/chinesefood
